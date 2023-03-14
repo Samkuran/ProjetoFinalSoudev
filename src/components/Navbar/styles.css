@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    margin-top: 42px; 
+    margin-bottom: 48px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+#conjlogo{
+    display: flex;
+    width: 253px;
+    height: 44px;
+}
+
+#vetor{
+    height: 33px;
+    width: 33px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#logo{
+    width: 212px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #C92071;
+}
+
+#form {
+    margin-left: 50px;
+}
+
+.cadastro{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-decoration-line: underline;
+    color: #474747;
+    margin-left: 2.8rem;
+    text-align: center;
+    margin-right: 1.8rem;
+    margin-top: 5px;
+    width: 9rem;
+}
+
+.cadastro:hover{
+    color: #C92071;
+}
+
+.carrinho{
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 4rem;
+}
+
