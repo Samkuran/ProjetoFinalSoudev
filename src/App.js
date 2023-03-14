@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import MeusPedidos from './pages/MeusPedidos';
 import Produtos from './pages/Produtos';
 import Categorias from './pages/Categorias';
+import './index.css'
  
 export default function App(){
     return (

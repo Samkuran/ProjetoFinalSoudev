@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar';
 import Menu from '../../components/Menu';
 import Carousel from '../../components/Carousel';
 import ColecoesDestaque from '../../components/ColecoesDestaque';
+import OfertaDestaque from '../../components/OfertaDestaque';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
             <Menu />
             <Carousel />
             <ColecoesDestaque />
+            <OfertaDestaque/>
         </>
     )
 }
