@@ -1,6 +1,6 @@
 import React from "react";
 import vetor from "./Vector.png";
-import {TextField, InputAdornment, Button, Badge} from "@mui/material";
+import {TextField, InputAdornment, Button, Badge, Container} from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 import "./styles.css";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -11,6 +11,7 @@ export default function Navbar (){
 
     return(
         <>
+        <Container>
             <div className="header">
             <section id="conjlogo">
                 <img id="vetor" alt="logo da Digital College" src={vetor}/>
@@ -47,7 +48,7 @@ export default function Navbar (){
            
            
         </div>
-   
+   </Container>
         </>
     );
 }
