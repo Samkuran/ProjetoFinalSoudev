@@ -11,7 +11,7 @@ export default function Navbar (){
 
     return(
         <>
-        <div className="container">
+            <div className="header">
             <section id="conjlogo">
                 <img id="vetor" alt="logo da Digital College" src={vetor}/>
                 <a href="newtab" id="logo">Digital Store</a>
