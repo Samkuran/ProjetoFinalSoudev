@@ -9,6 +9,7 @@ export default function Categorias() {
         <>
             <Navbar />
             <Menu />
+            conteudo
             <Footer />
         </>
     )

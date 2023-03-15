@@ -9,6 +9,7 @@ export default function Produtos() {
         <>
             <Navbar />
             <Menu />
+            conteudo
             <Footer/>
         </>
     )

@@ -9,6 +9,7 @@ export default function MeusPedidos() {
         <>
             <Navbar />
             <Menu />
+            conteudo
             <Footer/>
         </>
     )
