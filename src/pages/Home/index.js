@@ -4,6 +4,7 @@ import Menu from '../../components/Menu';
 import Carousel from '../../components/Carousel';
 import ColecoesDestaque from '../../components/ColecoesDestaque';
 import OfertaDestaque from '../../components/OfertaDestaque';
+import Footer from '../../components/Footer';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <Carousel />
             <ColecoesDestaque />
             <OfertaDestaque/>
+            <Footer/>
         </>
     )
 }

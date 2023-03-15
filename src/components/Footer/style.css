@@ -1,0 +1,67 @@
+.conjfooter{
+    display: flex;
+    gap: 8px;
+    margin-top: 72px;
+}
+
+.logofooter1{
+    margin-top: 2px;
+    height: 33px;
+    width: 33px;
+}
+
+.logofooter2{
+    text-decoration: none;
+    color: white;
+    font-size: 36.3951px;
+    margin: 0;
+}
+
+.textofooter{
+    font-size: 16px;
+    text-align: start;
+    width: 70% ;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.iconesfooter{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+footer h4{
+    margin: 0;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 28px;
+    margin-top: 72px;
+}
+
+footer a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+footer hr{
+    margin-top: 34px;
+    height: 1px;
+    background: #FFFFFF;
+    opacity: 0.3;
+}
+
+footer span{
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+mix-blend-mode: normal;
+}
