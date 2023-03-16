@@ -1,0 +1,89 @@
+.texto1{
+    width: 280px;
+    height: 24px;
+    left: 100px;
+    top: 318px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F6AA1C;
+}
+
+.texto2{
+    width: 510px;
+    height: 132px;
+    left: 100px;
+    top: 362px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+}
+
+.texto3{
+    width: 495px;
+    height: 68px;
+    left: 100px;
+    top: 514px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+#img-tenis{
+    width: 910px;
+    height: 750px;
+    left: 513.25px;
+    top: 446.91px;
+    margin-top: -70px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    bottom: auto;
+}
+
+#img-ornament{
+    margin-top: -480px;
+    margin-right: -10px;
+    width: 140px;
+    height: 140px;
+    left: 1263px;
+    top: -20%;
+
+
+}
+
+.container-bolinha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bolinha{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #474747;
+    margin: 5px;
+}
+
+.bolinha.ativo{
+    background-color: #C92071;
+}
+
+#bloco-texto{
+    margin-top: 90px;
+}
+
+#card-slide {
+    padding: 50px 0px 15px 0px !important;
+}
+
+#card-slide-stack{
+    height: 580px !important;
+}
