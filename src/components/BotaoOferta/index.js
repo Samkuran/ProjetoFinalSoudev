@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 
-export default function BotaoOferta () {
+export default function BotaoOferta (props) {
 
     return (
         <Button sx={{
@@ -9,6 +9,8 @@ export default function BotaoOferta () {
                 marginTop: 1,
                 color: "#F5F5F5",
                 bgcolor: "#C92071",
+                textTransform: 'none',
+                fontWeight: "X-Small Bold",
                 fontSize: 14,
                 "&:hover": {
                     color: "white",
@@ -17,7 +19,7 @@ export default function BotaoOferta () {
                 },
             }}>
                 
-               Ver oferta
+               {props.texto}
             
             </Button>
     )
