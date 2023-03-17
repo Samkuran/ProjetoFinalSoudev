@@ -1,15 +1,11 @@
-.bg{
-    background-color:  #F9F8FE ;
-}
-
-.bg p{
+.bgGray p{
     text-align: center;
     font-weight: 700;
     font-size: 14px;
     color: #474747;
 }
 
-.bg h3{
+.bgGray h3{
     text-align: center;
     font-style: normal;
     font-weight: 700;
