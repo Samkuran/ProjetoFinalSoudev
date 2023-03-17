@@ -86,7 +86,7 @@ export default function Carousel() {
                 <p className="texto1">{items[atual].label}</p>
                 <h2 className="texto2">{items[atual].titulo}</h2>
                 <p className="texto3">{items[atual].descricao}</p>
-                <Botao text="Ver ofertas" />
+                <Botao texto="Ver ofertas" />
               </Grid>
 
               <Grid item xs={6}>
