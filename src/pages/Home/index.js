@@ -15,7 +15,6 @@ export default function Home() {
             <Menu />
             <Carousel />
             <ColecoesDestaque />
-            <ColecoesDestaqueIcones/>
             <OfertaDestaque/>
             <Footer/>
         </>
