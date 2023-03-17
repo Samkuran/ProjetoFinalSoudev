@@ -31,7 +31,7 @@ const Sections = () => {
 }
     return (
         <>
-          <div className="bg">
+          <div className="bgGray">
              <Container>
                     <h3>Coleções em destaque</h3>
                     <Grid container  direction="row" justifyContent="center" alignItems="center"  spacing={2}> 

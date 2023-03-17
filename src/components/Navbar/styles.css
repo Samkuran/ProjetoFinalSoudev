@@ -1,9 +1,3 @@
-.header{
-    display: flex;
-    margin-top: 42px; 
-    margin-bottom: 48px;
-}
-
 #conjlogo{
     display: flex;
     width: 253px;
@@ -29,8 +23,12 @@
     color: #C92071;
 }
 
-#form {
-    margin-left: 50px;
+.conjCadastro{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 48px;
+    align-items: center;
+    margin-top: 5px;
 }
 
 .cadastro{
@@ -41,20 +39,10 @@
     letter-spacing: 0.75px;
     text-decoration-line: underline;
     color: #474747;
-    margin-left: 2.8rem;
-    text-align: center;
-    margin-right: 1.8rem;
-    margin-top: 5px;
-    width: 9rem;
 }
 
 .cadastro:hover{
     color: #C92071;
 }
 
-.carrinho{
-    width: 25px;
-    margin-top: 5px;
-    margin-left: 4rem;
-}
 
