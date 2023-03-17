@@ -16,7 +16,9 @@ export default function Home() {
             <Carousel />
             <ColecoesDestaque />
             <ColecoesDestaqueIcones/>
+            
             <ProdutosAltaSAM />
+
             <OfertaDestaque/>
             <Footer/>
         </>

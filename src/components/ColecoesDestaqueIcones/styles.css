@@ -1,4 +1,9 @@
-.iconeslinks a{
+.bg {
+    background-color: #F9F8FE;
+    }
+    
+    
+  .iconeslinks a{
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -21,6 +26,7 @@
     color: #C92071;
     text-decoration: underline;
 }
+
 
 
 
