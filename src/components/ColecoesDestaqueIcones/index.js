@@ -5,6 +5,13 @@ import calcas from "./calca.svg";
 import bones from "./bone (4).svg";
 import tenisi from "./teniss.svg";
 import fones from "./fone.svg";
+import camisetasrosa from "./camisetaROSA.svg";
+import calcasrosa from "./calcaROSA.svg";
+import bonesrosa from "./boneROSA.svg";
+import tenisirosa from "./tenissROSA.svg";
+import fonesrosa from "./foneROSA.svg";
+import { Link } from "react-router-dom";
+import React from "react";
 
 export default function ColecoesDestaqueIcones (){
 
@@ -20,15 +27,18 @@ const Sections = () => {
     return colecoes.map((cada) => {
         return (
 
-            <Grid item>
+            <Grid item className="iconeslinks">
                 <Avatar sx={{ bgcolor: "white", height: "104px", width: "104px" }}>
                         <img src={cada.imagem}></img>
                 </Avatar>
-                <p>{cada.nome}</p>
+                <Link to="">{cada.nome}</Link>
             </Grid>
         );
     }); 
 }
+
+    const [iproduto, setIproduto] = React.useState (0)
+
     return (
         <>
           <div className="bgGray">

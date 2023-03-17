@@ -1,4 +1,6 @@
-.bgGray p{
+.iconeslinks a{
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-weight: 700;
     font-size: 14px;
@@ -13,5 +15,18 @@
     line-height: 38px;
     color: #474747;
 }
+
+.iconeslinks a:hover {
+    color: #C92071;
+    text-decoration: underline;
+}
+
+.iconeslinks a:active {
+    color: #C92071;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
 
 
