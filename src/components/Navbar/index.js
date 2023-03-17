@@ -32,10 +32,12 @@ export default function Navbar (){
             </Grid>
 
             <Grid item xs={5}>
+            <ThemeProvider theme={theme}>
                 <TextField color="secondary" fullWidth
                     InputProps={{
                         endAdornment: <InputAdornment position="end"><SearchIcon/></InputAdornment>,}}
                     label="Pesquisar produto..."/>    
+                     </ThemeProvider>
             </Grid>
 
             <Grid item xs={3}>
