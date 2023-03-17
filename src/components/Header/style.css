@@ -1,0 +1,6 @@
+.headerP {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 32px;
+    gap: 40px ;
+}
