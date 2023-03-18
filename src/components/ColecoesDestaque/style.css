@@ -1,11 +1,26 @@
-.icone {
-    margin-top: 4.375rem;
+.textprimary{
+    color: #474747;
+    font-size: 24px;
 }
 
-.bg {
-    background-color: #F9F8FE;
+.textsecundary{
+    color: #1F1F1F;
 }
 
-.bg h1 {
-    text-align: start;
+.papers{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.textoesq{
+    border: #1F1F1F solid 1px;
+}
+
+.textoesq h3{
+    font-size: 32px;
+}
+
+.imgdir{
+    border: #1F1F1F solid 1px;
 }
