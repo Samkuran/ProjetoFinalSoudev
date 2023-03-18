@@ -7,7 +7,7 @@ import tenisi from "./teniss.svg";
 import fones from "./fone.svg";
 import camisetasrosa from "./camisetaROSA.svg";
 import calcasrosa from "./calcaROSA.svg";
-import bonesrosa from "./boneROSA.svg";
+import bonesrosa from "./bonerosa.svg";
 import tenisirosa from "./tenissROSA.svg";
 import fonesrosa from "./foneROSA.svg";
 import { Link } from "react-router-dom";
@@ -24,15 +24,6 @@ export default function ColecoesDestaqueIcones (){
   { nome: "Headphones", imagem: fones, imagemAtiva: fonesrosa},
   { nome: "Tênis", imagem: tenisi, imagemAtiva: tenisirosa },
 ];
-
-// const isActive = ( ) => {
-//     if (cada.nome === isActive) {
-//         return "active";
-//     }
-
-//     return "";
-// };
-
 
 const Sections = () => {
     return colecoes.map((cada, posicao) => {
