@@ -7,7 +7,7 @@ import tenisi from "./teniss.svg";
 import fones from "./fone.svg";
 import camisetasrosa from "./camisetaROSA.svg";
 import calcasrosa from "./calcaROSA.svg";
-import bonesrosa from "./bonerosa.svg";
+import bonesrosa from "./boneROSA.svg";
 import tenisirosa from "./tenissROSA.svg";
 import fonesrosa from "./foneROSA.svg";
 import { Link } from "react-router-dom";
