@@ -3,6 +3,7 @@ import { Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel, Grid, Me
 import { Container} from "@mui/system";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import "./style.css";
+import Produto from "../Produto";
 
 
 export default function BuscarProdutos(){
@@ -73,7 +74,21 @@ export default function BuscarProdutos(){
                         </div>
                     </Grid>
                     <Grid item xs={9}>
-                        <div>Imagens</div>
+                        <div className="produtoInd">
+                        <Produto/>
+                        <Produto/>
+                        <Produto/>
+                        </div>
+                        <div className="produtoInd">
+                        <Produto/>
+                        <Produto/>
+                        <Produto/>
+                        </div>
+                        <div className="produtoInd">
+                        <Produto/>
+                        <Produto/>
+                        <Produto/>
+                        </div>
                     </Grid>
                 </Grid>
             </ThemeProvider></Container>

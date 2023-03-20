@@ -1,6 +1,6 @@
 import React from "react";
 import vetor from "./Vector.png";
-import {TextField, InputAdornment, Button, Badge, Container, IconButton, Grid, Color} from "@mui/material";
+import {TextField, InputAdornment, Button, Badge, Container, IconButton, Grid} from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 import "./styles.css";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
