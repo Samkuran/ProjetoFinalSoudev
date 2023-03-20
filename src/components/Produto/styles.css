@@ -1,0 +1,23 @@
+.sapatoalta span{
+    color: rgba(143, 143, 143, 1);
+    font-size: 12px;
+}
+
+.sapatoalta h3{
+    color: #474747;
+    font-size: 24px;
+    width: 283px;
+    height: 38px;
+    font-weight: small;
+    margin: 0;
+}
+
+.textoSmall{
+    margin-top: 18px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.precoantigo{
+    color: #8F8F8F;
+}

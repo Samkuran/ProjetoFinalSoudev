@@ -40,3 +40,9 @@
 .MuiFormGroup-root .MuiFormControlLabel-root {
     height: 26px;
 }
+
+.produtoInd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
