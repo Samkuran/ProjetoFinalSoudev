@@ -1,13 +1,14 @@
-.precoantigo {
-    color: #474747;
-    text-decoration: solid line-through;
+.titulolinkpdt {
+    display: flex;
+    justify-content: space-between;
 };
 
-.sapatoalta{
+.sapatoalta {
     display: flex;
     justify-content: space-around;
 };
 
-.fotosapato:hover{
-    outline-color: blue;
-}
+.precoantigo {
+    color: #474747;
+    text-decoration: solid line-through;
+};
