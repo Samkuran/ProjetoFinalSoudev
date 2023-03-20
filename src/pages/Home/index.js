@@ -6,6 +6,7 @@ import Footer from '../../components/Footer';
 import ColecoesDestaqueIcones from '../../components/ColecoesDestaqueIcones';
 import Header from '../../components/Header';
 import ProdutosAltaSAM from '../../components/ProdutosAltaSAM';
+import ProdutosAlta from '../../components/ProdutosEmAlta';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
             <ColecoesDestaqueIcones/>
             
             <ProdutosAltaSAM />
+            <ProdutosAlta/>
 
             <OfertaDestaque/>
             <Footer/>
