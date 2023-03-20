@@ -25,15 +25,6 @@ export default function ColecoesDestaqueIcones (){
   { nome: "Tênis", imagem: tenisi, imagemAtiva: tenisirosa },
 ];
 
-// const isActive = ( ) => {
-//     if (cada.nome === isActive) {
-//         return "active";
-//     }
-
-//     return "";
-// };
-
-
 const Sections = () => {
     return colecoes.map((cada, posicao) => {
         return (
