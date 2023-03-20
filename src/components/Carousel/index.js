@@ -6,7 +6,7 @@ import ornament from './Ornament.png'
 import Botao from '../BotaoOferta';
 import './style.css'
 import { ChevronLeft, ChevronRight } from '@mui/icons-material';
-
+ 
 export default function Carousel() {
   const [atual, setAtual] = React.useState(0);
 
@@ -74,6 +74,12 @@ export default function Carousel() {
     }
   }
 
+  React.useEffect(() => {
+    let intervalo = setInterval(proximo, 3000);
+
+    return() => clearInterval(intervalo);
+  });
+  
   return (
     <div>
       <Card id="card-slide" style={{ backgroundColor: "#F5F5F5", padding: "50px 0" }}>

@@ -9,7 +9,7 @@
     line-height: 24px;
     color: #F6AA1C;
 }
-
+ 
 .texto2{
     width: 510px;
     height: 132px;
@@ -65,8 +65,8 @@
 }
 
 .bolinha{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: #474747;
     margin: 5px;
