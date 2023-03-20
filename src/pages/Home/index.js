@@ -12,7 +12,6 @@ export default function Home() {
     return (
         <>  
             <Header/>
-
             <Carousel />
             <ColecoesDestaque />
             <ProdutosAlta/>
