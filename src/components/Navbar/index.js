@@ -5,15 +5,11 @@ import SearchIcon from '@mui/icons-material/Search';
 import "./styles.css";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { pink } from '@mui/material/colors';
 
 export default function Navbar (){
 
     const theme = createTheme({
         palette: {
-          primary: {
-            main: pink[500],
-          },
           secondary: {
             main: '#C92071',
           },
@@ -32,12 +28,12 @@ export default function Navbar (){
             </Grid>
 
             <Grid item xs={5}>
-            <ThemeProvider theme={theme}>
-                <TextField color="secondary" fullWidth
-                    InputProps={{
-                        endAdornment: <InputAdornment position="end"><SearchIcon/></InputAdornment>,}}
-                    label="Pesquisar produto..."/>    
-                     </ThemeProvider>
+                <ThemeProvider theme={theme}>
+                    <TextField color="secondary" fullWidth
+                        InputProps={{
+                            endAdornment: <InputAdornment position="end"><SearchIcon/></InputAdornment>,}}
+                        label="Pesquisar produto..."/>    
+                </ThemeProvider>
             </Grid>
 
             <Grid item xs={3}>

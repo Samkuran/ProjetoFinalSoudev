@@ -8,7 +8,7 @@ import Menu from "../Menu";
 export default function Header (){
     return (
         <>
-             <Grid direction="column" className='headerP' >
+             <Grid container direction="column" className='headerP' >
                 <Navbar />
                 <Menu />
             </Grid>

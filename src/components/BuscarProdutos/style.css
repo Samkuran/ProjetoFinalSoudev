@@ -1,0 +1,42 @@
+.buscarProdutos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buscarProdutos h3{
+    font-size: 16px;
+    color: #474747;
+    margin-top: 40px;
+}
+
+.buscarProdutos span{
+    font-weight: normal;
+}
+
+.filtrarProdutos{
+    background-color: #FFFFFF;
+    width: 218px;
+    height: 690px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+
+.filtrarProdutos h3{
+    font-size: 16px;
+    color: #474747; 
+    padding-top: 30px;
+}
+
+.filtrarProdutos hr{
+    border: 1px solid #CCCCCC;
+}
+
+.label-custom .MuiTypography-body1 {
+    font-size: 14px;
+  }
+
+.MuiFormGroup-root .MuiFormControlLabel-root {
+    height: 26px;
+}
